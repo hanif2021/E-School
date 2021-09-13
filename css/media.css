@@ -1,0 +1,159 @@
+@media(min-width:0px) and (max-width:575px){
+    .header {
+        text-align: center;
+    }
+    .banner_content h1 {
+        font-size: 31px;
+    }
+    .btn-getstarted {
+        padding: 10px 20px;
+       
+    }
+    .banner_image {
+        display: none;
+    }
+    .course_section h2 {
+        font-size: 32px;
+        
+    }
+    .course {
+        width: 75%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .feature_section {
+        margin-bottom: 60px;
+    }
+    .testimonial_section h3 {
+       
+        font-size: 32px;
+        
+    }
+    .client {
+        margin-left:0;
+        margin-top:0;
+        width: 73%;
+    }
+    .testimonial_section p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    footer {
+        text-align: center;
+    }
+    footer ul {
+        margin-bottom: 20px;
+    }
+    footer h3 {
+        padding-top: 20px;
+        padding-bottom: 35px;
+    }
+        
+
+
+}
+@media(min-width:0px) and (max-width:425px){
+    .banner_content h1 {
+        line-height: 55px;
+    }
+    .btn-singin {
+        padding: 10px 24px;
+        
+    }
+    .course_section h2 {
+        font-weight: 600;
+    }
+    .testimonial_section h3 {
+
+        font-weight: 600;
+        margin: 40px 0;
+    }
+    .client {
+        height: 60px;
+        width: 60px;
+        margin: 61% 0;
+    }
+    footer p {
+        padding: 0 15px;
+    }
+}
+@media(min-width:0px) and (max-width:375px){
+    .btn-singin {
+        padding: 8px 22px;
+    }
+    .feature h1 {
+        font-size: 21px;
+    }
+     .btn-buycourse {
+        
+        padding: 6px 20px;
+        
+    }
+}
+ 
+@media(min-width:0px) and (max-width:320px){
+    
+    .navbar-brand {
+        width: 30%;
+    }
+    .banner_content h1 {
+        line-height: 50px;
+        font-size: 30px;
+    }
+    
+    .banner_content p {
+        font-size: 15px;
+        line-height: 33px;
+        
+    }
+    .btn-getstarted {
+        padding: 8px 20px;
+    }
+    
+    .feature {
+        margin-bottom: 10px;
+        padding: 40px 0;
+    }
+    .feature h1 {
+        font-size: 19px;
+        line-height: 32px;
+        
+    }
+    .feature p {
+        font-size: 14px;
+    
+    }
+    .course_section h2 {
+        font-size: 28px;
+    }
+    .course h3 {
+        font-size: 22px;
+    }
+    .course p {
+        font-size: 14px;
+    }
+   
+    .course ul {
+       
+        font-size: 10px;
+    }
+    .testimonial_section h3 {
+        font-size: 28px;
+    }
+    .client {
+        margin: 170% 0;
+    }
+    .testimonial_section p {
+        font-size: 12px;
+       
+        
+    }
+    footer ul li {
+        font-size: 14px;
+    }
+    footer h3 {
+        padding-top: 13px;
+        padding-bottom: 27px;
+        font-size: 14px;
+    }
+}

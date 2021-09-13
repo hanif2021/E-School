@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header css start here 
+==========================
+========================== */
+.header{
+    background-color: #F0FFF0;
+}
+.navbar-brand{
+    width: 15%;
+}
+.navbar-brand img{
+    
+}
+.navbar-nav{
+    align-items: center;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {a
+    color: #000000;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin: 0 6px;
+}
+.btn-singin{
+
+border: 1px solid #fff;
+
+background: #21B573;
+
+border-radius: 33px;
+
+padding: 12px 28px;
+
+color: #fff;
+
+text-transform: capitalize;
+transition: .4s all ease-in;
+}
+.header .btn-singin:hover {
+    background: #11613d;
+    color: #fff;
+}
+.banner_content{
+
+margin: 50px 20px;
+}
+.banner_content h5{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+.banner_content h1{
+    
+color: #000000;
+    
+font-size: 48px;
+    
+line-height: 70px;
+    
+font-weight: 700;
+}
+.banner_content h1 span{
+    
+color:#21B573;
+}
+.banner_content p{
+
+font-size: 16px;
+
+line-height: 36px;
+
+color: #6C6B6B;
+}
+.btn-getstarted{
+
+}
+.banner_image{
+
+margin: 50px 40px;
+}
+.banner_image img{
+    
+}
+.btn-getstarted{
+
+    border: 1px solid #0000;
+    
+    background: #21B573;
+    
+    border-radius: 33px;
+    
+    padding: 12px 28px;
+    
+    color: #fff;
+    
+    text-transform: capitalize;
+    transition: .4s all ease-in;
+    }
+.header .btn-getstarted:hover {
+    background: #11613d;
+    color: #fff;
+}
+.feature_section{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+/* header css end here 
+==========================
+========================== */
+
+/* feature css start here 
+==========================
+========================== */
+.feature{
+    background: #F8FFFB;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.feature img{
+    width: 30%;
+    margin-bottom: 15px;
+}
+.feature h1{
+
+font-size: 24px;
+
+line-height: 36px;
+
+font-weight: 500;
+
+color: #413960;
+}
+.feature p{
+    
+font-size: 16px;
+    
+line-height: 24px;
+}
+.feature:hover{
+    background-color: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+/* feature css end here 
+==========================
+============================================================================= */
+
+/* course_section css start here 
+==========================
+========================== */
+.course_section{
+
+}
+.course_section h2{
+    
+text-align: center;
+    
+font-size: 36px;
+    
+line-height: 54px;
+    
+text-transform: capitalize;
+    
+margin-bottom: 50px;
+    
+font-weight: 700;
+}
+.course{
+
+border: 1px solid #e8e4e4;
+
+border-radius: 18px;
+
+padding: 20px 15px;
+}
+.course img{
+    
+margin-bottom: 20px;
+}
+.course h3{
+    
+}
+.course p{
+
+}
+.btn-buycourse{
+    border: 1px solid #0000;
+    background: #21B573;
+    border-radius: 33px;
+    padding: 8px 28px;
+    color: #fff;
+    text-transform: capitalize;
+    transition: .4s all ease-in;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.course ul{
+
+list-style: none;
+
+display: flex;
+
+margin: 0;
+
+padding: 0;
+
+justify-content: space-between;
+}
+.course ul li{
+    text-transform: capitalize;
+}
+.course ul li i{
+    margin-right: 10px;
+}
+.course:hover{
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+}
+.btn-buycourse:hover{
+    background: #11613d;
+    color: #fff;
+}
+/* course_section css end here 
+==========================
+========================== */
+.testimonial_section{
+
+}
+.testimonial_section h3{
+    
+text-align: center;
+    
+margin: 50px 0;
+    
+font-size: 36px;
+    
+line-height: 54px;
+    
+font-weight: 700;
+}
+.testimonial_section p{
+    
+font-size: 16px;
+    
+line-height: 30px;
+    
+color: #000000;
+}
+.client{
+
+height: 80px;
+
+width: 80px;
+
+border-radius: 50%;
+
+overflow: hidden;
+
+margin-left: 150px;
+
+margin-top: 10px;
+}
+.client img{
+    
+}
+footer{
+
+background: #282531;
+
+margin: 50px 0;
+
+padding-top: 50px;
+}
+footer p{
+    
+color: #fff;
+    
+font-size: 16px;
+    
+line-height: 30px;
+}
+footer ul{
+    
+color: #fff;
+    
+list-style: none;
+}
+footer ul li{
+    
+font-weight: 200;
+}
+footer ul li:first-child {
+    font-weight: 600;    
+}
+footer h3{
+    
+color: #fff;
+    
+text-align: center;
+    
+font-size: 16px;
+    
+margin-top: 20px;
+    
+letter-spacing: 1px;
+    
+line-height: 30px;
+    
+font-weight: 300;
+    
+padding-top: 50px;
+    
+padding-bottom: 20px;
+}
+/* global css ================================
+=========================================================== */
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgb(33 181 115);
+    box-shadow: none;
+}
+
